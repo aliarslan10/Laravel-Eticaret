@@ -36,7 +36,7 @@
             <ul class="nav navbar-nav">
             	<li><a style="background-color:#444;" href="{{asset('kullanici-paneli')}}"><i class="glyphicon glyphicon-home"></i></a></li>
                 <li><a href="{{ asset('kullanici-bilgileri') }}">Hesap Ayarları</a></li>
-                <li><a href="{{ asset('chat-odalari') }}">Mavi Sohbet</a></li>
+                <li><a href="{{ asset('chat-odalari') }}">Sohbet</a></li>
 					{{-- <li><a href="{{ asset('analizler') }}">Analizler</a></li> --}}
                 <li><a href="{{ asset('mesaj-at') }}">Destek Paneli</a></li>
                 <li><a href="{{ asset('cikis') }}">Çıkış Yap</a></li>
