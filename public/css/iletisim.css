@@ -1,0 +1,50 @@
+/*** İletişim İçerik Tema ***/
+
+.yazibaslik h3{
+	margin: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menubaslik h3{
+	margin: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/** İletişim Arayüz 1 **/
+.iletisimBilgileri{
+	border:1px solid #38918b;
+	border-left: 5px solid #38918b;
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+table tr{
+	border-bottom: 1px solid #e1e1e1;
+}
+
+table tr th{
+	width: 2%;
+	padding:5px;
+}
+
+table tr td{
+	padding: 7px 0;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+
+textarea{
+	height: 167px !important;
+}
+
+.icerikslider{
+	background: #337AB7;		
+}
+
+.navbar-inverse .navbar-nav>li {
+    padding-bottom: 15px;
+}

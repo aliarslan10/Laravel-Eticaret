@@ -1,0 +1,38 @@
+.yuvarlat5{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.yuvarlat10{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.yuvarlat15{-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.yuvarlat20{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
+.yuvarlat25{-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;}
+.yuvarlat30{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;}
+.yuvarlat35{-webkit-border-radius:35px;-moz-border-radius:35px;border-radius:35px;}
+.yuvarlat40{-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px;}
+.bosluk5{height:5px;}
+.bosluk10{height:10px;}
+.bosluk15{height:15px;}
+.bosluk20{height:20px;}
+.bosluk25{height:25px;}
+.bosluk30{height:30px;}
+.bosluk35{height:35px;}
+.bosluk40{height:40px;}
+.bosluk50{height:50px;}
+.bosluk100{height:100px;}
+.bosluk300{height:300px;}
+.site_icerik{background:#fff;padding:12px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.anasayfakurumsal p{color:#fff;}
+.anasayfakurumsal span{color:#f2dd80;font-size:20px;font-weight:bold;}
+@media(max-width:550px){.autohidemobil{display:none;}
+}
+@media(max-width:760px){.autohidetablet{display:none;}
+}
+.imza{}
+.imza:hover{background:url(../img/cukurova-.png);}
+.panel-sari{color:#fff;background:#BF706F;padding-left:10px;}
+genelbaslik{padding:15px;display:block;}
+.byok{padding:0;padding-left:0;padding-right:0;}
+.yataymenu,
+.yataymenu li{float:left;text-align:center;padding:10px;}
+.rcerceve{width:150px;color:#777;padding:5px;min-height:100px;}
+.ruadet{background:url(../img/icon/urunsay.jpg);background-repeat:no-repeat;text-align:right;}
+.rufavori{background:url(../img/icon/favori.jpg);background-repeat:no-repeat;text-align:right;}
+a{color:#a94442;}
+a:hover{color:#BF706F;text-decoration:none;}

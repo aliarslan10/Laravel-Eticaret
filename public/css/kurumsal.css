@@ -1,0 +1,15 @@
+/*** Kurumsal İçerik Tema ***/
+
+.yazi > .resimortala { /** Xcrud Görseli İçin **/
+	padding: 0px 20%;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.yazi > .resimortala> img{ /** Xcrud Görseli İçin **/
+	max-width: 100%;
+}
+
+
+.icerikslider{
+  background-color: #132a37; /* purple : #783356 --- green : #376A5E */
+}

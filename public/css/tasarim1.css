@@ -1,0 +1,82 @@
+/****** Modüllere ait tüm x_tema dosyaları bu icerik_tasarim1'e ait olan bu CSS dosyasını kullanıyor. ******/
+
+.breadcrumbx{
+	padding: 10px 0px 10px 50px;
+	color: #e7d7bf;
+}
+
+.breadcrumb{
+    padding: 15px 0 15px 65px;
+    margin:0;
+    background: #f1f1f1;
+}
+
+.breadcrumbx > .container > a{
+	position: relative;
+ 	bottom: 1px;
+	color: #e7d7bf;
+}
+
+.icerik{
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+
+.menualani{
+	background-color: white;
+	padding: 10px;
+}
+
+.menu ul{
+	padding: 0px;
+}
+
+.menu ul li{
+	list-style: none;
+	border-bottom: 1px dotted #e5e5e5;
+	padding: 7px 0 7px 0;
+	margin: 0px;
+}
+
+.menu ul li:hover{
+	background-color: rgba(200,200,200,0.2);
+}
+
+.menu ul li a:hover{
+	text-decoration: none;
+}
+
+.yazibaslik h2{
+	margin: 0px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.menubaslik h3{
+	margin: 0px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.yazialani{
+	background-color: white;
+	padding: 10px;
+}
+
+@media(max-width:769px){
+	.menualanimobil{
+		background-color:white;
+		margin-top:10px;
+	}
+}
+
+.xcrud-top-actions {
+    padding-left: 27% !important;
+}
+
+/* E-Ticaret anasayfa tavsiye edilenler tab alanı */
+.nav-tabs>li>a{
+	border:0px solid transparent
+}
