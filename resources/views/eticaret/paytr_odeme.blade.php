@@ -71,12 +71,12 @@
 	## Başarılı ödeme sonrası müşterinizin yönlendirileceği sayfa
 	## !!! Bu sayfa siparişi onaylayacağınız sayfa değildir! Yalnızca müşterinizi bilgilendireceğiniz sayfadır!
 	## !!! Siparişi onaylayacağız sayfa "Bildirim URL" sayfasıdır (Bakınız: 2.ADIM Klasörü).
-	$merchant_ok_url = "http://www.hataycarsim.com/siparis-basarili";
+	$merchant_ok_url = "http://www.sitenizinadi.com/siparis-basarili";
 	#
 	## Ödeme sürecinde beklenmedik bir hata oluşması durumunda müşterinizin yönlendirileceği sayfa
 	## !!! Bu sayfa siparişi iptal edeceğiniz sayfa değildir! Yalnızca müşterinizi bilgilendireceğiniz sayfadır!
 	## !!! Siparişi iptal edeceğiniz sayfa "Bildirim URL" sayfasıdır (Bakınız: 2.ADIM Klasörü).
-	$merchant_fail_url = "http://www.hataycarsim.com/siparis-basarisiz";
+	$merchant_fail_url = "http://www.sitenizinadi.com/siparis-basarisiz";
 	#
 	## Müşterinin sepet/sipariş içeriği
 	$user_basket = base64_encode(json_encode(Session::get('sepet_odeme')));
