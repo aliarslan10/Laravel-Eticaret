@@ -5,7 +5,7 @@
 </div>
 <div class="alert alert-danger" aria-label="Close">
  <i class="glyphicon glyphicon-warning-sign"></i> <b>Henüz telefonu numaranızı girmediyseniz, size forex ile ilgili SMS sinyalleri 
-gönderebilmemiz açısından lütfen, menüde yer alan "<a href="http://maviforex.com.tr/kullanici-bilgileri">Hesap Ayarları</a>" sekmesinden telefon numaranızı doğru bir şekilde 
+gönderebilmemiz açısından lütfen, menüde yer alan "<a href="#">Hesap Ayarları</a>" sekmesinden telefon numaranızı doğru bir şekilde 
 girdiğinizden emin olunuz. </b>
 </div>
 @stop
