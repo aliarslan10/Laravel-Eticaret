@@ -302,18 +302,8 @@ class ETicaretController extends Controller
           $mail_adresi =  $postEdilenBilgiler['mail_adresi'];
           $ad_soyad =  $postEdilenBilgiler['ad_soyad'];
           $sifre =  $postEdilenBilgiler['sifre'];
-          $konu =  "Hatay Çarşım Sipariş Bilgilendirme";
-		  /*
-          Mail::send([], [], function($message) use ($mail_adresi, $konu, $ad_soyad, $sifre)
-          {
-             $message->from('maviforex@gmail.com', 'HATAYCARSIM.COM');
-             $message->to($mail_adresi,$ad_soyad)->subject($konu)->setBody("
-              Merhaba ". $ad_soyad.",
-              Siparişinizi takip etmek için gerekli olan sisteme giriş bilgileriniz aşağıdaki gibidir.
-              Mail Adresiniz: ". $mail_adresi ." Şifreniz : ". $sifre ."
-              Sisteme giriş yaptıktan sonra, 'Siparişlerim' sayfasından tüm siparişinizi takip edebilirsiniz. ");
-          });
-		  */
+          $konu =  "Laravel E-Ticaret Sipariş Bilgilendirme";
+		  
 		  Session::set('orderCode',$siparisKodu);
 		  Session::set('mailadress',$mail_adresi);
 		  

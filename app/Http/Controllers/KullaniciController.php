@@ -333,7 +333,7 @@ class KullaniciController extends Controller
             //dd($mailadresi);
             Mail::send('kullanici.sifremi_unuttum_mail_sablonu', ['sifre'=>$sifre[0], 'mail'=>$mailadresi], function($message) use($mailadresi)
             {
-               $message->to("$mailadresi")->subject("MaviForex Şifre Hatırlatma E-Postası");
+               $message->to("$mailadresi")->subject("Şifre Hatırlatma E-Postası");
             });
 
             $bilgi = "Şifreniz  $req[mail_adresi] adlı mail adresinize başarıyla gönderildi.";
