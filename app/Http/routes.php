@@ -4,7 +4,7 @@
 |--------------------------------------------------------------------------
 | Application Routes
 |--------------------------------------------------------------------------
-|
+| Ali ARSLAN - COMPUTER ENGINEER - aliarslan10@yandex.com.tr
 | Here is where you can register all of the routes for an application.
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
@@ -14,10 +14,6 @@
 Route::get('/master', function () {
     return view('master');
 });
-
-/*Route::get('/teslimat-bilgileri', function () {
-    dd("Online ödeme sistemi için banka çalışmalarımız devam etmektedir. Kredi kartı ile online ödeme sistemimiz kısa bir süre içerisinde aktif olacaktır. Anlayışınız için teşekkür ederiz.");
-});*/
 
 Route::get('/', 'AnasayfaController@anasayfa');
 Route::post('/', 'AnasayfaController@ebulten');
@@ -47,7 +43,6 @@ Route::group(['prefix' => 'ckadmin'], function () {
 
 	Route::get('/kullanici-yonetimi', 'AdminController@kullanicilar');
 	Route::post('/reset', 'AdminController@sifremiUnuttum');
-	Route::get('/sms-gonderim-sistemi', 'AdminController@smsGonderim');
 	Route::get('/chat-sistemi', 'AdminController@chatSistemi');
 
 	Route::get('/blog-kategorileri', 'AdminController@blogKategori');
